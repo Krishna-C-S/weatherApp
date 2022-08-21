@@ -46,8 +46,8 @@ function populateWeather(data) {
 
   let htmlData = ``
   htmlData += `
-<div class="col-4"></div>
-<div class="col-4text-center mt-4">
+<div class="col-lg-4 col-md-4 col-sm-4"></div>
+<div class="col-lg-4 col-md-4 col-sm-4 text-center mt-4">
 <i class="fa-solid fa-location-dot d-inline" style="color:white;"></i> <h3 class="d-inline" style="color:white;">${placeName}</h3>
 <div class="dateTime mt-4">
 <h3>${time},${day}</h3>
@@ -55,14 +55,14 @@ function populateWeather(data) {
 
 </div>
 </div>
-<div class="col-4 "></div>
+<div class="col-lg-4 col-md-12 col-sm-4 "></div>
 <div class="container-fluid text-center mb-5" style="margin-top:5%;color:black;background-color: rgba(255, 255, 255, 0.5);border-radius:1rem;width:60rem;">
 <div class="row">
-<div class="col-lg-6 col-md col-sm mt-5">
+<div class="col-lg-6 col-md-12 col-sm-6 mt-5">
 <h1>${temp}&#8451</h1>
 <p>${tempMin}&#8451/${tempMax}&#8451</p>
 </div>
-<div class="col-lg-6 col-md col-sm">
+<div class="col-lg-6 col-md-12 col-sm-6">
 <img src="${icons}">
 <h2>${main}</h2>
 <p>${description}</p>
@@ -70,14 +70,14 @@ function populateWeather(data) {
 <hr>
 </div>
 <div class="row">
-<div class="col-4"></div>
-<div class="col-4">
+<div class="col-lg-4 col-md-12 col-sm-4"></div>
+<div class="col-lg-4 col-md-12 col-sm-4">
 <h5>Weather details</h5>
 </div>
-<div class="col-4"></div>
+<div class="col-lg-4 col-md-12 col-sm-4"></div>
 </div>
 <div class="row">
-<div class="col-lg-4 col-md col-sm mt-5">
+<div class="col-lg-4 col-md-12 col-sm-4 mt-5">
 <div class="element">
 <h6>${visibility} km</h6>
 <p class="text-muted">Visibility</p>
@@ -88,9 +88,9 @@ function populateWeather(data) {
 </div>
 
 </div>
-<div class="col-lg-4 col-md col-sm">
+<div class="col-lg-4 col-md-12 col-sm-4">
 </div>
-<div class="col-lg-4 col-md col-sm">
+<div class="col-lg-4 col-md-12 col-sm-4">
 <div class="element mt-5">
 <h6>${pressure} hPa</h6>
 <p class="text-muted">Air Pressure</p>
