@@ -37,7 +37,7 @@ function populateWeather(data) {
 
   var today = new Date();
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  var date = today.getDate() + ' ' + months[(today.getMonth() + 1)] + ' ' + today.getFullYear();
+  var date = today.getDate() + ' ' + months[today.getMonth()] + ' ' + today.getFullYear();
   var hours = today.getHours()
   hours = (hours % 12) || 12
   var time = hours + ":" + today.getMinutes();
