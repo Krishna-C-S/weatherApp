@@ -49,8 +49,8 @@ function populateWeather(data) {
 <div class="col-lg-4 col-md-4 col-sm-4"></div>
 <div class="col-lg-4 col-md-4 col-sm-4 text-center mt-4">
 <i class="fa-solid fa-location-dot d-inline" style="color:white;"></i> <h3 class="d-inline" style="color:white;">${placeName}</h3>
-<div class="dateTime mt-4">
-<h3>${time},${day}</h3>
+<div class="dateTime mt-4" style="color:white">
+<h1>${time},${day}</h1>
 <h6>${date}</h6>
 
 </div>
