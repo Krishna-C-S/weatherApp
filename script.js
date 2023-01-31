@@ -79,12 +79,12 @@ function populateWeather(data) {
 <div class="row">
 <div class="col-lg-4 col-md-12 col-sm-4 mt-5">
 <div class="element">
-<h6>${visibility} km</h6>
-<p class="text-muted">Visibility</p>
+<h5>${visibility} km</h5>
+<p class="text"><i class="fa-solid fa-eye"></i> Visibility</p>
 </div>
 <div class="element mt-5">
-<h6>${wind} km/h</h6>
-<p class="text-muted">Wind</p>
+<h5>${wind} km/h</h5>
+<p class="text"><i class="fa-solid fa-wind"></i> Wind</p>
 </div>
 
 </div>
@@ -92,12 +92,12 @@ function populateWeather(data) {
 </div>
 <div class="col-lg-4 col-md-12 col-sm-4">
 <div class="element mt-5">
-<h6>${pressure} hPa</h6>
-<p class="text-muted">Air Pressure</p>
+<h5>${pressure} hPa</h5>
+<p class="text"><i class="fa-solid fa-temperature-three-quarters"></i> Air Pressure</p>
 </div>
 <div class="element mt-5">
-<h6>${hum}%</h6>
-<p class="text-muted">Humidity</p>
+<h5>${hum}%</h5>
+<p class="text"><img src="hum.png" style="width:15px;height:15px;"></img> Humidity</p>
 </div>
 </div>
 </div>
